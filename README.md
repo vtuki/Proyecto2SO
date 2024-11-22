@@ -1,5 +1,7 @@
 # Proyecto2SO
 
+# Proyecto 2 - Sistemas Operativos UDEC.
+
 # P1) Simulación Productores-Consumidores
 
 Este proyecto implementa una simulación de productores y consumidores utilizando una cola circular protegida por un monitor (mutex y variables de condición) en C. La simulación permite configurar el número de productores, consumidores, tamaño inicial de la cola y tiempo de espera máximo para los consumidores.
@@ -23,9 +25,8 @@ Este proyecto implementa una simulación de productores y consumidores utilizand
 ### 1. Compilar
 Ejecuta el siguiente comando en tu terminal para compilar el programa:
 
-```bash
+bash
 gcc -o simulapc p1.c -lpthread
-
 
 # P2) Simulador de Memoria Virtual con Paginación
 
